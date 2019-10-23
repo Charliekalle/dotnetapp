@@ -1,0 +1,38 @@
+{
+  "generator-jhipster-dotnetcore": {
+    "namespace": "MyCompany",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "monolith",
+    "baseName": "dotnetapp",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none"
+  },
+  "generator-jhipster": {
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "dotnetapp",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "0.1.0"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "0.1.0"
+      }
+    ]
+  }
+}

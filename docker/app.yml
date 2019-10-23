@@ -1,0 +1,6 @@
+version: '2'
+services:
+  dotnetapp-app:
+    image: dotnetapp
+    ports:
+      - 80:80
